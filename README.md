@@ -44,7 +44,7 @@ Each QR code must contain a JSON object with the following structure:
 {
   "id": "<unique-transfer-id>",
   "total": <number-of-chunks>,
-  "index": <chunk-index>,
+  "frame": <chunk-index>,
   "data": "<base64-encoded-chunk>",
   "hash": "<sha256-of-chunk>"
 }
@@ -54,7 +54,7 @@ Each QR code must contain a JSON object with the following structure:
 
 * `id`: A UUID or unique identifier for the full payload.
 * `total`: Total number of QR segments in the transfer.
-* `index`: Zero-based index of this QR chunk.
+* `frame`: Zero-based index of this QR chunk.
 * `data`: Base64-encoded binary fragment.
 * `hash`: SHA-256 hash of the decoded chunk to ensure integrity.
 
