@@ -1,8 +1,8 @@
-# qretina
+# QRetina
 
 **Install with your eyes.**
 
-`qretina` is an offline-first bootloader that reconstructs full binary applications from a stream of QR codes. Designed for air-gapped systems, rescue utilities, and viral app distribution, `qretina` makes it possible to transfer complete executables without a network, just by pointing a camera at a QR stream.
+`QRetina` is an offline-first bootloader that reconstructs full binary applications from a stream of QR codes. Designed for air-gapped systems, rescue utilities, and viral app distribution, `QRetina` makes it possible to transfer complete executables without a network, just by pointing a camera at a QR stream.
 
 ---
 
